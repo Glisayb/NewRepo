@@ -10,3 +10,8 @@ static double Average(int[] nums)
 {
     return nums.Average();
 }
+
+static double Max(int[] nums)
+{
+    return nums.Max();
+}
