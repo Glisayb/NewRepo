@@ -8,7 +8,13 @@ Console.WriteLine("koniec prógramu");
 
 static double Average(int[] nums)
 {
-    return nums.Average();
+    int suma = 0;
+    foreach (var number in nums)
+    {
+        suma += number;
+    }
+
+    return suma / nums.Length;
 }
 
 static double Max(int[] nums)
